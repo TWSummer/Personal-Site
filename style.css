@@ -61,16 +61,17 @@ section {
 body {
   font-family: "Noto Sans", sans-serif;
   background-color: #F6F7EB; }
-  body h1, body h2, body h3, body h4, body h5, body h6 {
+  body h1, body h2, body h3, body h4, body h5, body h6, body p {
     font-family: "Titillium Web", sans-serif; }
 
 h3 {
   font-size: 24px; }
 
 h2 {
+  padding-left: 1.5vw;
   font-size: 48px; }
 
-header {
+#welcome {
   margin-top: 80px;
   height: calc(100vh - 160px);
   background-image: url("images/yosemite-1590013_1920.jpg");
@@ -79,19 +80,45 @@ header {
   align-items: center;
   justify-content: center;
   color: #F6F7EB; }
-  header h1 {
+  #welcome h1 {
     font-size: 6vw;
     text-shadow: 2px 2px 3px #0B2027; }
-  header h3 {
+  #welcome h3 {
     font-size: 3vw;
     text-shadow: 2px 2px 3px #0B2027; }
 
 #technologies i {
-  font-size: 4vh; }
+  margin-top: 3vh;
+  font-size: 182px; }
+#technologies p {
+  margin-bottom: 2vh;
+  font-size: 32.5px;
+  font-weight: 500; }
+@media only screen and (max-width: 1300px) {
+  #technologies i {
+    font-size: 14vw; }
+  #technologies p {
+    font-size: 2.5vw; } }
+@media only screen and (max-width: 992px) {
+  #technologies i {
+    font-size: 18vw; }
+  #technologies p {
+    font-size: 3vw; } }
+@media only screen and (max-width: 600px) {
+  #technologies i {
+    font-size: 24vw; }
+  #technologies p {
+    font-size: 5vw; } }
 #technologies .col {
   align-items: center; }
 
 #portfolio div {
   z-index: -1; }
+
+.pad-bottom {
+  margin-bottom: 2vh; }
+
+.technology {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

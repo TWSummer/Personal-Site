@@ -35,7 +35,7 @@ body {
   font-family: $primary_font;
   background-color: $off_white;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, p {
     font-family: $secondary_font;
   }
 }
@@ -45,10 +45,11 @@ h3 {
 }
 
 h2 {
+  padding-left: 1.5vw;
   font-size: 48px;
 }
 
-header {
+#welcome {
   margin-top: 80px;
   height: calc(100vh - 160px);
   background-image: url('images/yosemite-1590013_1920.jpg');
@@ -71,17 +72,65 @@ header {
 }
 
 #technologies {
+
   i {
-    font-size: 4vh;
+    margin-top: 3vh;
+    font-size: 182px;
+  }
+
+  p {
+    margin-bottom: 2vh;
+    font-size: 32.5px;
+    font-weight: 500;
+  }
+
+  @media only screen and (max-width: 1300px) {
+      i {
+          font-size: 14vw;
+      }
+
+      p {
+        font-size: 2.5vw;
+      }
+  }
+
+  @media only screen and (max-width: 992px) {
+      i {
+          font-size: 18vw;
+      }
+
+      p {
+        font-size: 3vw;
+      }
+  }
+
+  @media only screen and (max-width: 600px) {
+      i {
+          font-size: 24vw;
+      }
+
+      p {
+        font-size: 5vw;
+      }
   }
 
   .col {
     align-items: center;
   }
+
+
 }
 
 #portfolio {
   div {
     z-index: -1;
   }
+}
+
+.pad-bottom {
+  margin-bottom: 2vh;
+}
+
+.technology {
+  text-align: center;
 }
