@@ -1,6 +1,6 @@
 @import 'partials/reset';
 
-$blue: #BBD5ED;
+$blue: #4C6085;
 $teal: #CEFDFF;
 $purple: #A288E3;
 $off_white: #F6F7EB;
@@ -20,12 +20,20 @@ nav {
   background-color: $blue;
 }
 
+@media only screen and (max-width: 790px) {
+    .large-only {
+        display: none;
+    }
+}
+
 section {
+  padding-top: 80px;
   height: 100vh;
 }
 
 body {
   font-family: $primary_font;
+  background-color: $off_white;
 
   h1, h2, h3, h4, h5, h6 {
     font-family: $secondary_font;
@@ -36,9 +44,13 @@ h3 {
   font-size: 24px;
 }
 
+h2 {
+  font-size: 48px;
+}
+
 header {
   margin-top: 80px;
-  height: 80vh;
+  height: calc(100vh - 160px);
   background-image: url('images/yosemite-1590013_1920.jpg');
   display: flex;
   flex-direction: column;

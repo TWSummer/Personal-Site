@@ -49,22 +49,30 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #BBD5ED; }
+  background-color: #4C6085; }
 
+@media only screen and (max-width: 790px) {
+  .large-only {
+    display: none; } }
 section {
+  padding-top: 80px;
   height: 100vh; }
 
 body {
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Noto Sans", sans-serif;
+  background-color: #F6F7EB; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: "Titillium Web", sans-serif; }
 
 h3 {
   font-size: 24px; }
 
+h2 {
+  font-size: 48px; }
+
 header {
   margin-top: 80px;
-  height: 80vh;
+  height: calc(100vh - 160px);
   background-image: url("images/yosemite-1590013_1920.jpg");
   display: flex;
   flex-direction: column;
