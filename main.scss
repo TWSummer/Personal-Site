@@ -1,10 +1,10 @@
 @import 'partials/reset';
 
-$color_1: #4B88A2;
-$color_2: #BB0A21;
-$color_3: #6B9080;
-$off_white: #FFF9FB;
-$off_black: #020F0F;
+$blue: #BBD5ED;
+$teal: #CEFDFF;
+$purple: #A288E3;
+$off_white: #F6F7EB;
+$off_black: #0B2027;
 
 $primary_font: 'Noto Sans', sans-serif;
 $secondary_font: 'Titillium Web', sans-serif;
@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: $color_1;
+  background-color: $blue;
 }
 
 section {
@@ -65,5 +65,11 @@ header {
 
   .col {
     align-items: center;
+  }
+}
+
+#portfolio {
+  div {
+    z-index: -1;
   }
 }
