@@ -18,6 +18,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: $blue;
+  z-index: 10;
 
   ul li a {
     padding: 16px 16px;

@@ -49,7 +49,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4C6085; }
+  background-color: #4C6085;
+  z-index: 10; }
   nav ul li a {
     padding: 16px 16px;
     border-radius: 5px; }
