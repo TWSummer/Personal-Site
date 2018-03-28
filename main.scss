@@ -145,3 +145,48 @@ h2 {
 .technology {
   text-align: center;
 }
+
+.about-card {
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  margin: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  transition: 0.3s;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.hover-text {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0;
+  color: rgba(0, 0, 0, 0);
+  transition: all 1.5s ease;
+}
+
+@media only screen and (min-width: 840px) {
+  .about-card {
+    width: 45%;
+    margin: 2.3%;
+  }
+}
+
+.about-container {
+  padding: 2px 16px;
+}
+
+.about-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
+
+.about-card:hover > .hover-text  {
+  background-color: rgba(255, 255, 255, 1.0);
+  color: rgba(0, 0, 0, 1.0);
+}
