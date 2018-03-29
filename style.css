@@ -64,7 +64,8 @@ section {
 
 body {
   font-family: "Noto Sans", sans-serif;
-  background-color: #F6F7EB; }
+  background-color: #F6F7EB;
+  color: #0B2027; }
   body h1, body h2, body h3, body h4, body h5, body h6, body p {
     font-family: "Titillium Web", sans-serif; }
 
@@ -167,6 +168,7 @@ h2 {
 .project-card {
   position: relative;
   display: inline-block;
+  overflow: hidden;
   width: 99%;
   margin: 0.5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
@@ -179,28 +181,46 @@ h2 {
   position: absolute;
   display: block;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
+  width: 0%;
+  height: 0%;
   padding: 5%;
   background-color: rgba(255, 255, 255, 0);
-  transform: rotateY(85deg);
-  top: 0;
+  transform: rotate(220deg);
+  top: 50%;
+  left: 50%;
   color: rgba(0, 0, 0, 0);
   transition: all 1.5s ease; }
 
-@media only screen and (min-width: 840px) {
-  .project-card {
-    width: 80%;
-    margin: 25px 10%; } }
 .project-container {
-  padding: 2px 16px; }
+  position: absolute;
+  margin: 12px 8px;
+  bottom: 0;
+  text-shadow: 0px 0px 0.5px #F6F7EB;
+  font-weight: 700; }
+  .project-container h4 {
+    font-size: 3.5vw; }
+  .project-container p {
+    font-size: 2vw; }
 
+@media only screen and (min-width: 1200px) {
+  .project-card {
+    width: 1188px;
+    margin: 25px calc((100vw - 1188px) / 2); }
+
+  .project-container h4 {
+    font-size: 42px; }
+  .project-container p {
+    font-size: 24px; } }
 .project-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7); }
 
 .project-card:hover > .project-hover-text {
   background-color: white;
   color: black;
-  transform: rotateY(0deg); }
+  transform: rotate(0deg);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
 
 /*# sourceMappingURL=style.css.map */
