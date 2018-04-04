@@ -67,13 +67,13 @@ body {
   background-color: #F6F7EB;
   color: #0B2027; }
   body h1, body h2, body h3, body h4, body h5, body h6, body p {
-    font-family: "Titillium Web", sans-serif; }
+    font-family: "IBM Plex Sans", sans-serif; }
 
 h3 {
   font-size: 24px; }
 
 h2 {
-  padding-left: 1.5vw;
+  text-align: center;
   font-size: 48px; }
 
 #welcome {
@@ -237,5 +237,43 @@ h2 {
   left: 0; }
   .project-card:hover > .project-hover-text a {
     opacity: 1; }
+
+#about {
+  background-color: #E3C0D3; }
+  #about main {
+    padding: 20px; }
+  @media only screen and (min-width: 200px) {
+    #about main {
+      padding: 20px 10%; } }
+  @media only screen and (min-width: 1000px) {
+    #about main {
+      display: flex;
+      justify-content: space-between; }
+    #about .about-aside {
+      width: 35%; }
+    #about .about-div {
+      width: 60%; } }
+  #about h4 {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700; }
+  #about p {
+    font-size: 16px; }
+
+.about-aside img {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+  margin-bottom: 15px; }
+
+.education-header {
+  font-size: 19px;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between; }
+
+.education-name {
+  font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */

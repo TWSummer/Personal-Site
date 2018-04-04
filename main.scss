@@ -1,13 +1,13 @@
 @import 'partials/reset';
 
 $blue: #4C6085;
-$teal: #CEFDFF;
-$purple: #A288E3;
+$pink: #E3C0D3;
+$smoke: #71816D;
 $off_white: #F6F7EB;
 $off_black: #0B2027;
 
 $primary_font: 'Noto Sans', sans-serif;
-$secondary_font: 'Titillium Web', sans-serif;
+$secondary_font: 'IBM Plex Sans', sans-serif;
 
 nav {
   height: 80px;
@@ -52,7 +52,7 @@ h3 {
 }
 
 h2 {
-  padding-left: 1.5vw;
+  text-align: center;
   font-size: 48px;
 }
 
@@ -294,4 +294,65 @@ h2 {
   a {
     opacity: 1;
   }
+}
+
+#about {
+  background-color: $pink;
+
+  main {
+    padding: 20px;
+  }
+
+  @media only screen and (min-width: 200px) {
+    main {
+      padding: 20px 10%;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    main {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .about-aside {
+      width: 35%;
+    }
+
+    .about-div {
+      width: 60%;
+    }
+  }
+
+  h4 {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
+
+.about-aside {
+  img {
+    float: left;
+    width: 40%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.education-header {
+  font-size: 19px;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-name {
+  font-style: italic;
 }
