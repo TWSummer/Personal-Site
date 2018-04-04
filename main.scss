@@ -346,13 +346,23 @@ h2 {
   }
 }
 
-.education-header {
+.education-header, .company-details {
   font-size: 19px;
-  padding: 4px 0;
+  padding: 8px 0;
   display: flex;
   justify-content: space-between;
 }
 
-.education-name {
+.job-title {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.education-name, .company {
   font-style: italic;
+}
+
+.job-bullets {
+  list-style-type: circle;
+  list-style: disc;
 }
