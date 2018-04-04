@@ -259,6 +259,7 @@ h2 {
     font-size: 24px;
     font-weight: 700; }
   #about p {
+    line-height: 1.5;
     font-size: 16px; }
 
 .about-aside img {
@@ -280,8 +281,9 @@ h2 {
 .education-name, .company {
   font-style: italic; }
 
-.job-bullets {
-  list-style-type: circle;
-  list-style: disc; }
+.about-div .job-bullets li {
+  line-height: 1.5;
+  list-style: disc;
+  margin: 10px 0; }
 
 /*# sourceMappingURL=style.css.map */

@@ -332,6 +332,7 @@ h2 {
   }
 
   p {
+    line-height: 1.5;
     font-size: 16px;
   }
 
@@ -362,7 +363,8 @@ h2 {
   font-style: italic;
 }
 
-.job-bullets {
-  list-style-type: circle;
+.about-div .job-bullets li {
+  line-height: 1.5;
   list-style: disc;
+  margin: 10px 0;
 }
