@@ -275,6 +275,7 @@ h2 {
   justify-content: space-between; }
 
 .job-title {
+  padding: 10px 0;
   font-size: 19px;
   font-weight: 700; }
 
