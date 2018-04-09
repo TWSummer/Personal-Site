@@ -224,8 +224,14 @@ h2 {
   transition: all 1.5s ease;
 
   a {
-    font-size: 2vw;
+    font-size: 12px;
     opacity: 0;
+  }
+
+  @media only screen and (min-width: 600px) {
+    a {
+      font-size: 2vw;
+    }
   }
 }
 
@@ -385,4 +391,15 @@ h2 {
   line-height: 1.5;
   list-style: disc;
   margin: 10px 0;
+}
+
+#portfolio {
+  b {
+    font-weight: 700;
+  }
+
+  li {
+    line-height: 1.5;
+    list-style: disc;
+  }
 }

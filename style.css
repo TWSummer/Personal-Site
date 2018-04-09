@@ -196,8 +196,11 @@ h2 {
   color: rgba(0, 0, 0, 0);
   transition: all 1.5s ease; }
   .project-hover-text a {
-    font-size: 2vw;
+    font-size: 12px;
     opacity: 0; }
+  @media only screen and (min-width: 600px) {
+    .project-hover-text a {
+      font-size: 2vw; } }
 
 .project-container {
   position: absolute;
@@ -296,5 +299,11 @@ h2 {
   line-height: 1.5;
   list-style: disc;
   margin: 10px 0; }
+
+#portfolio b {
+  font-weight: 700; }
+#portfolio li {
+  line-height: 1.5;
+  list-style: disc; }
 
 /*# sourceMappingURL=style.css.map */
