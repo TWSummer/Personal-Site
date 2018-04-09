@@ -331,5 +331,7 @@ h2 {
     background-color: #6ad;
     height: 6vh;
     width: 35%; }
+  #contact button:hover {
+    background-color: #7be; }
 
 /*# sourceMappingURL=style.css.map */
