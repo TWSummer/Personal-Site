@@ -414,4 +414,32 @@ h2 {
     width: 80%;
     margin: 0 auto;
   }
+
+  textarea {
+    height: 40vh;
+    min-height: 100px;
+    margin-top: 15px;
+    padding: 8px;
+    color: #444;
+  }
+
+  input {
+    color: #444;
+  }
+
+  label {
+    color: #777;
+  }
+
+  .submit-button-div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    border-radius: 10px;
+    background-color: #6ad;
+    height: 6vh;
+    width: 35%;
+  }
 }

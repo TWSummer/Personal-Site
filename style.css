@@ -313,5 +313,23 @@ h2 {
   #contact form {
     width: 80%;
     margin: 0 auto; }
+  #contact textarea {
+    height: 40vh;
+    min-height: 100px;
+    margin-top: 15px;
+    padding: 8px;
+    color: #444; }
+  #contact input {
+    color: #444; }
+  #contact label {
+    color: #777; }
+  #contact .submit-button-div {
+    display: flex;
+    justify-content: space-around; }
+  #contact button {
+    border-radius: 10px;
+    background-color: #6ad;
+    height: 6vh;
+    width: 35%; }
 
 /*# sourceMappingURL=style.css.map */
