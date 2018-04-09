@@ -338,5 +338,7 @@ h2 {
   #contact button:hover {
     background-color: #7be;
     box-shadow: 1px 1px 2px 2px #789; }
+  #contact button:active {
+    background-color: #59c; }
 
 /*# sourceMappingURL=style.css.map */
