@@ -437,13 +437,18 @@ h2 {
   }
 
   button {
+    color: #444;
+    font-weight: 700;
     border-radius: 10px;
     background-color: #6ad;
     height: 6vh;
     width: 35%;
+    border: none;
+    box-shadow: 1px 1px 2px 2px #678;
   }
 
   button:hover {
     background-color: #7be;
+    box-shadow: 1px 1px 2px 2px #789;
   }
 }
