@@ -308,4 +308,10 @@ h2 {
 #portfolio p {
   line-height: 1.5; }
 
+#contact {
+  background-color: #E3C0D3; }
+  #contact form {
+    width: 80%;
+    margin: 0 auto; }
+
 /*# sourceMappingURL=style.css.map */
