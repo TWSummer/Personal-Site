@@ -63,6 +63,7 @@ section {
   min-height: 100vh; }
 
 body {
+  overflow-x: hidden;
   font-family: "Noto Sans", sans-serif;
   background-color: #F6F7EB;
   color: #0B2027; }
@@ -78,7 +79,7 @@ h2 {
 
 #welcome {
   margin-top: 80px;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 80px);
   background-image: url("images/yosemite-1590013_1920.jpg");
   display: flex;
   flex-direction: column;

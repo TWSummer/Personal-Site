@@ -38,6 +38,7 @@ section {
 }
 
 body {
+  overflow-x: hidden;
   font-family: $primary_font;
   background-color: $off_white;
   color: $off_black;
@@ -58,7 +59,7 @@ h2 {
 
 #welcome {
   margin-top: 80px;
-  height: calc(100vh - 160px);
+  height: calc(100vh - 80px);
   background-image: url('images/yosemite-1590013_1920.jpg');
   display: flex;
   flex-direction: column;
