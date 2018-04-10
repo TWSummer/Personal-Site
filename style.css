@@ -240,6 +240,8 @@ h2 {
   left: 0; }
   .project-card:hover > .project-hover-text a {
     opacity: 1; }
+  .project-card:hover > .project-hover-text a:hover {
+    opacity: 0.6; }
 
 #about {
   background-color: #E3C0D3; }
@@ -321,6 +323,8 @@ h2 {
     margin-top: 15px;
     padding: 8px;
     color: #444; }
+  #contact textarea:focus {
+    background-color: #e5e5e5; }
   #contact input {
     color: #444; }
   #contact label {

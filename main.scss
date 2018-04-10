@@ -300,6 +300,10 @@ h2 {
   a {
     opacity: 1;
   }
+
+  a:hover {
+    opacity: 0.6;
+  }
 }
 
 #about {
@@ -423,6 +427,10 @@ h2 {
     margin-top: 15px;
     padding: 8px;
     color: #444;
+  }
+
+  textarea:focus {
+    background-color: #e5e5e5;
   }
 
   input {
