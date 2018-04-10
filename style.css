@@ -314,6 +314,8 @@ h2 {
     width: 80%;
     margin: 0 auto; }
   #contact textarea {
+    background-color: #ddd;
+    border-radius: 6px;
     height: 40vh;
     min-height: 100px;
     margin-top: 15px;
